@@ -1,9 +1,14 @@
 #include<iostream>
+#include<vector>
+
 using namespace std;
 
 int main()
 {
-    string name;
-    cin>>name;
-    cout<<"My name is "<<name;
+    vector<int> v = {1,3,4,5,6};
+
+    for(int i:v){
+        cout<<i<<" "<<v[i]<<endl;
+    }
+    
 }
