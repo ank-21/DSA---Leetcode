@@ -5,5 +5,5 @@ int main()
 {
     string name;
     cin>>name;
-    cout<<name;
+    cout<<"My name is "<<name;
 }
