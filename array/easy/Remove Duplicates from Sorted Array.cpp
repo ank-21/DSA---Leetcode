@@ -22,7 +22,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 */
 
 //My solution - 19% faster
-
+//works only in sorted order
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -43,3 +43,11 @@ public:
 };
 
 //Leetcode better sol
+/* if the numbers are not sorted but are from 1 to n
+    but are like {2,3,1,4,2,4};
+
+*/
+
+//My solution
+
+//Run a loop and for each element make that index negative and once we find any value already negative then that index is repeated.
