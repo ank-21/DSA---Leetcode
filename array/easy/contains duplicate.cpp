@@ -16,7 +16,7 @@ Output: true
 */
 
 // My Sol
-
+//if numbers are negative then add the mod of highest neg number. and then do counting sort
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
