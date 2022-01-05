@@ -19,7 +19,7 @@ Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0
 */
 
 //implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
-
+//can do with bit, as by xor operation with its index
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
